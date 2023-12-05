@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #ce2829;
+  margin-top: 50px auto;
+  padding-top: 50px;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 2px;
+  font-size: 50px;
+  color: white;
+}
+
+.order-button {
+  background-color: #fdc913;
+  color: #ce2829;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: bold;
+  /* margin-bottom: 20px; */
+}
+
+.pizza-image {
+  width: 64em; /* Ayarlamak istediğiniz boyuta göre değiştirin */
+  /* max-width: 120em; */
+  height: auto;
+  /* align-items: end; */
+}
